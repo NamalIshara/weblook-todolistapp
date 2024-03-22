@@ -1,0 +1,89 @@
+.login-container {
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #1f4959;
+  align-items: center;
+}
+
+input[type="email"],
+input[type="password"] {
+  display: block;
+  width: 500px;
+  margin-bottom: 12px;
+  padding: 15px 8px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  margin-left: 40px;
+}
+
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  margin-left: 240px;
+  margin-top: 20px;
+}
+h2 {
+  color: white;
+  padding-left: 260px;
+  padding-bottom: 30px;
+  font-size: 35px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.task-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e4dede;
+  border-radius: 5px;
+  border: 1px solid rgb(124, 123, 123);
+}
+
+.task-container input[type="text"] {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.task-container button {
+  width: 150px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .task-container {
+    max-width: 300px;
+  }
+}
+.task {
+  width: 580px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  list-style: none;
+  background: white;
+  font-size: 15px;
+}
